@@ -1,0 +1,41 @@
+Step 1:Input r, c
+Step 2:Declaring and defining a 2-D array a of RxC dimensions
+Step 3:While (true)
+Step 4:For x to len(a)-1
+Step 5:For y to len(a[0])-1
+Step 6:if a[x][y]==0 then goto step 7 else goto step 8
+Step 7:em++
+Step 8:END IF
+Step 9:END FOR
+Step 10:END FOR
+Step 11:if em==0 then goto step 12 else goto step 13
+Step 12:END WHILE
+Step 13:END IF
+Step 14:while (true)
+Step 15:if a[tr][tc]==0 then goto step 16 else goto step 19
+Step 16:a[tr][tc]=1
+Step 17:in+1
+Step 18:END IF
+Step 19:END WHILE
+Step 20:while (true)
+Step 21:if a[tr][tc]==0 then goto step 22 else goto step 25
+Step 22:a[tr][tc]=1
+Step 23:in+1
+Step 24:END IF
+Step 25:END WHILE
+Step 26:while (true)
+Step 27:if a[tr][tc]==0 then goto step 28 else goto step 31
+Step 28:a[tr][tc]=1
+Step 29:in+1
+Step 30:END IF
+Step 31:END WHILE
+Step 32:while (true)
+Step 33:if a[tr][tc]==0 then goto step 35 else goto step 37
+Step 34:a[tr][tc]=1
+Step 35:in+1
+Step 36:END IF
+Step 37:END WHILE
+Step 38:For x to len(a)-1  
+Step 39:For y to len(a[0])-1  
+Step 40:print a[x][y]
+Step 41:END
